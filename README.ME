@@ -1,0 +1,25 @@
+shortener_service/
+│
+├── app/                  # Backend(Flask)
+│   ├── __init__.py
+│   ├── models.py         # Modelos de la base de datos
+│   ├── routes.py         # Rutas de la API
+│   ├── utils.py          # Funciones auxiliares (generación de códigos, etc.)
+│   └── config.py         # Configuraciones del microservicio
+│
+|── templates/             # Frontend (html)
+|   ├──index.html
+|
+├── tests/                # Pruebas unitarias y de integración
+│   └── test_routes.py
+│
+|
+|─── static/              # Archivos estaticos 
+|    ├── css/
+|    |   └─ styles.css
+|    └── js /
+|        └── main.js
+|
+├── requirements.txt      # Dependencias del proyecto
+├── run.py                # Punto de entrada del microservicio
+└── README.md             # Documentación del proyecto
